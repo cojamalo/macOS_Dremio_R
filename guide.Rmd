@@ -15,6 +15,8 @@ knitr::opts_chunk$set(eval=FALSE,fig.align='center', message = FALSE, warning=FA
 Date Completed: November 4, 2017
 
 By: Connor Lenio
+
+The following is a brief guide on how to access tables connected to a Dremio Server using macOS and R. The documentation on the Dremio website did not give explicit instructions on how to get this working using the ODBC drivers, so I figured it out myself!
 ```{r, eval=TRUE}
 sessionInfo()
 ```
