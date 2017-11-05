@@ -167,7 +167,7 @@ knitr::include_graphics('./img/check_name.png')
 <br>
 
 * Use this table name to reference the table in the following code. dplyr's `arrange` function is included here to show how the table is ready for use with dplyr functions.
-* Note the exact use of " versus ' in the SQL query in the call below. 
+* Note the exact use of double versus single quotes in the SQL query in the call below. 
 ```{r}
 con %>% tbl(sql('SELECT * FROM "@cojamalo".german_credit')) %>% arrange(Purpose)
 ```
